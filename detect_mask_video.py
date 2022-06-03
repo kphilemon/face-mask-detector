@@ -104,9 +104,9 @@ time.sleep(2.0)
 # loop over the frames from the video stream
 while True:
     # grab the frame from the threaded video stream and resize it
-    # to have a maximum width of 400 pixels
+    # to have a maximum width of 800 pixels
     frame = vs.read()
-    frame = imutils.resize(frame, width=400)
+    frame = imutils.resize(frame, width=800)
 
     # detect faces in the frame and determine if they are wearing a
     # face mask or not
